@@ -1,0 +1,14 @@
+const articles = [
+        { id: 1, title: "PUBG Update 32.1: Rondo Map Rework", game: "PUBG", category: "update", excerpt: "New weapons and tactical gear added.", date: "May 12, 2026", img: "https://placehold.co/600x400/1E293B/F97316?text=PUBG" },
+            { id: 2, title: "PUBG Global Championship 2026: $3M Prize", game: "PUBG", category: "tournament", excerpt: "Top 16 teams qualified for finals.", date: "May 10, 2026", img: "https://placehold.co/600x400/1E293B/F97316?text=PGC" },
+                { id: 3, title: "Free Fire OB47: New Character Orion", game: "Free Fire", category: "update", excerpt: "Invisibility skill and Clash Squad rework.", date: "May 11, 2026", img: "https://placehold.co/600x400/1E293B/F97316?text=FreeFire" },
+                  { id: 4, title: "Free Fire World Series 2026 Finals", game: "Free Fire", category: "tournament", excerpt: "Brazil vs Thailand for $1.2M.", date: "May 5, 2026", img: "https://placehold.co/600x400/1E293B/F97316?text=FFWS" },
+{ id: 5, title: "VALORANT Episode 10: New Agent Vyse", game: "VALORANT", category: "update", excerpt: "Time control abilities revealed.", date: "May 8, 2026", img: "https://placehold.co/600x400/1E293B/F97316?text=VALORANT" },
+          { id: 6, title: "VCT Masters Shanghai: EDG Wins", game: "VALORANT", category: "tournament", excerpt: "Chinese team takes down Fnatic 3-1.", date: "May 6, 2026", img: "https://placehold.co/600x400/1E293B/F97316?text=VCT" },
+                                { id: 7, title: "GTA 6 Trailer 2 Leak: Vice City", game: "GTA", category: "update", excerpt: "Map 2x bigger than Los Santos.", date: "May 13, 2026", img: "https://placehold.co/600x400/1E293B/F97316?text=GTA6" },
+{ id: 8, title: "Call of Duty Black Ops 6 Reveal", game: "COD", category: "update", excerpt: "Omnimovement and round-based zombies.", date: "May 1, 2026", img: "https://placehold.co/600x400/1E293B/F97316?text=BO6" },
+                                        { id: 9, title: "Minecraft 1.22 Deep Dark 2.0", game: "Minecraft", category: "update", excerpt: "New Warden variants and archaeology.", date: "April 30, 2026", img: "https://placehold.co/600x400/1E293B/F97316?text=Minecraft" },
+{ id: 10, title: "Fortnite Chapter 6 Season 2", game: "Fortnite", category: "update", excerpt: "Mythical weapons and map changes.", date: "May 9, 2026", img: "https://placehold.co/600x400/1E293B/F97316?text=Fortnite" },
+{ id: 11, title: "Secret Code: HUB2026 - Free Skin", game: "PUBG", category: "code", excerpt: "Redeem for free contraband coupon.", date: "May 7, 2026", img: "https://placehold.co/600x400/1E293B/F97316?text=Code" },
+                      { id: 12, title: "Best VALORANT Sensitivity Guide", game: "VALORANT", category: "guide", excerpt: "Pro player settings for 2026.", date: "May 4, 2026", img: "https://placehold.co/600x400/1E293B/F97316?text=Guide" }
+];
