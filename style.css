@@ -9,21 +9,11 @@
 
 
 
-
-
-
-
-
 body {
  font-family: 'Inter', sans-serif;
             background: #0B0E17;
        color: #EDF2F8;
 }
-
-
-
-
-
 
 
 
@@ -94,16 +84,9 @@ outline: none;
 
 
 
-
-
 .search-wrapper input::placeholder {
         color: #6B7280;
 }
-
-
-
-
-
 
 
 
@@ -184,3 +167,197 @@ color: #F97316;
                     margin-bottom: 0.8rem;
 letter-spacing: 1px;
 }
+
+
+
+
+
+.game-buttons, .cat-buttons {
+        display: flex;
+  flex-wrap: wrap;
+         gap: 0.6rem;
+}
+
+
+
+
+.game-btn, .cat-btn {
+        background: #151B2A;
+            border: none;
+                padding: 0.5rem 1.2rem;
+        border-radius: 40px;
+             color: #B9C3E6;
+                font-weight: 500;
+                   cursor: pointer;
+               transition: 0.2s;font-size: 0.85rem;
+}
+
+
+
+
+.game-btn.active, .cat-btn.active {
+ background: #F97316;
+          color: white;
+}
+
+.game-btn:hover, .cat-btn:hover {
+ background: #F97316;
+     color: white;
+}
+
+.results-stats {
+ margin: 1rem 0;
+            padding: 0.7rem;
+                background: #111723;
+border-radius: 12px;
+       text-align: center;
+font-size: 0.85rem;
+          color: #FBBF24;
+}
+
+.news-grid {
+             display: grid;
+       grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+gap: 1.8rem;
+margin-top: 1.5rem;
+}
+
+
+.news-card {
+        background: #111723;
+            border-radius: 20px;
+     overflow: hidden;
+          border: 1px solid #20273E;
+                        transition: 0.2s;
+     cursor: pointer;
+}
+
+
+
+
+
+.news-card:hover {
+        transform: translateY(-5px);
+     border-color: #F97316;
+}
+
+
+
+
+.card-img {
+        height: 180px;
+            background-size: cover;
+      background-position: center;
+                    position: relative;
+}
+
+.badge-game {
+        position: absolute;
+            bottom: 12px;
+       left: 12px;
+        background: #0B0E17;
+                        padding: 4px 12px;
+      border-radius: 20px;
+              font-size: 0.7rem;
+font-weight: bold;
+                 color: #F97316;
+                          border: 1px solid #F97316;
+}
+
+
+
+
+
+.badge-cat {
+   position: absolute;
+            top: 12px;
+   right: 12px;
+       background: #F97316;
+       padding: 4px 12px;
+                     border-radius: 20px;
+font-size: 0.7rem;
+                font-weight: bold;
+                    color: #0B0E17;
+}
+
+
+
+
+.card-content {
+    padding: 1.3rem;
+}
+
+
+
+
+
+.card-title {
+font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+}
+
+
+
+
+.card-excerpt {
+font-size: 0.85rem;
+          
+        
+        
+color: #A0AAC9;
+     margin-bottom: 1rem;
+}
+
+.card-meta {
+  display: flex;
+       justify-content: space-between;
+
+      
+
+      
+            font-size: 0.7rem;
+color: #6B7280;
+}
+
+
+
+
+
+.no-results {
+        text-align: center;
+            padding: 3rem;
+               background: #111723;
+      border-radius: 24px;
+}
+
+
+
+footer {
+        background: #070A12;
+       text-align: center;
+     padding: 2rem;
+ margin-top: 3rem;
+                        border-top: 1px solid #1F2538;
+                            font-size: 0.8rem;
+}
+
+
+
+@media (max-width: 800px) {
+        .nav-container {
+   flex-direction: column;
+        }
+
+
+.filters-row {
+     flex-direction: column;
+      gap: 1rem;
+   }
+   
+  
+            
+            .hero h1 {
+      font-size: 1.8rem;
+           }
+  }
