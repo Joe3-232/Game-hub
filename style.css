@@ -1,0 +1,186 @@
+* {
+        margin: 0;
+      padding: 0;
+          box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+body {
+ font-family: 'Inter', sans-serif;
+            background: #0B0E17;
+       color: #EDF2F8;
+}
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #1A1F2E;
+}
+::-webkit-scrollbar-thumb {
+  background: #F97316;
+          border-radius: 10px;
+}
+
+
+
+
+
+.navbar {
+        background: rgba(11, 14, 23, 0.95);
+backdrop-filter: blur(12px);
+                position: sticky;
+                    top: 0;
+               z-index: 100;
+             border-bottom: 1px solid rgba(249, 115, 22, 0.3);padding: 1rem 0;
+}
+
+.nav-container {
+        max-width: 1300px;
+    margin: 0 auto;
+                padding: 0 2rem;
+                    display: flex;     justify-content: space-between;
+      align-items: center;
+                                flex-wrap: wrap;
+gap: 1rem;
+}
+
+.logo {
+        font-size: 1.8rem;
+            font-weight: 800;
+                background: linear-gradient(135deg, #F97316, #FBBF24);-webkit-background-clip: text;
+      background-clip: text;
+             color: transparent;
+}
+
+.logo i {
+        background: none;
+  color: #F97316;
+}
+
+.search-wrapper {
+        display: flex;
+     gap: 0.5rem;
+                background: #1A1F2E;
+      padding: 0.5rem 1rem;
+        border-radius: 60px;
+             border: 1px solid #2D3348;
+}
+
+.search-wrapper input {
+background: transparent;
+ border: none;
+                color: white;
+                    font-size: 0.9rem;       width: 220px;
+outline: none;
+}
+
+
+
+
+
+.search-wrapper input::placeholder {
+        color: #6B7280;
+}
+
+
+
+
+
+
+
+
+
+.search-wrapper button {
+     background: #F97316;
+     border: none;
+                     padding: 0.3rem 1rem           ;
+                    border-radius: 40px;
+       color: white;
+                cursor: pointer;
+                                transition: 0.2s;
+}
+
+
+
+
+
+
+
+.search-wrapper button:hover {
+   background: #EA580C;
+}
+
+
+
+
+
+
+.hero {
+  text-align: center;
+            padding: 3rem 2rem;
+      background: linear-gradient(135deg, #0F1322, #070A12);
+}
+
+
+
+
+
+.hero h1 {
+        font-size: 2.5rem;
+           margin-bottom: 0.5rem;
+}
+
+
+
+
+
+
+.hero span {
+   color: #F97316;
+}
+
+.main-container {
+      max-width: 1300px;
+  margin: 2rem auto;
+          padding: 0 2rem;
+}
+
+.filters-row {
+                display: flex;
+     flex-wrap: wrap;
+                gap: 2rem;
+     margin-bottom: 2rem;
+  padding-bottom: 1rem;
+              border-bottom: 1px solid #1F2538;
+}
+
+.filter-group {
+        flex: 1;
+            min-width: 200px;
+}
+
+.filter-group h4 {
+        font-size: 0.8rem;
+            text-transform: uppercase;
+color: #F97316;
+                    margin-bottom: 0.8rem;
+letter-spacing: 1px;
+}
