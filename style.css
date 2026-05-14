@@ -43,42 +43,70 @@ backdrop-filter: blur(12px);
 }
 
 .nav-container {
+
         max-width: 1300px;
+
     margin: 0 auto;
+
                 padding: 0 2rem;
+
                     display: flex;     justify-content: space-between;
+
+
       align-items: center;
+
+
                                 flex-wrap: wrap;
+
 gap: 1rem;
 }
 
 .logo {
         font-size: 1.8rem;
+
             font-weight: 800;
+
                 background: linear-gradient(135deg, #F97316, #FBBF24);-webkit-background-clip: text;
+
+
       background-clip: text;
+
+
              color: transparent;
+
 }
 
 .logo i {
         background: none;
+
   color: #F97316;
 }
 
 .search-wrapper {
+
         display: flex;
+
      gap: 0.5rem;
                 background: #1A1F2E;
+
       padding: 0.5rem 1rem;
+
         border-radius: 60px;
+
              border: 1px solid #2D3348;
 }
 
 .search-wrapper input {
+
 background: transparent;
+
  border: none;
                 color: white;
-                    font-size: 0.9rem;       width: 220px;
+
+                    font-size: 0.9rem; 
+
+width: 220px;
+
 outline: none;
 }
 
