@@ -45,8 +45,6 @@ const articles = [
 
 
 
-
-
 let currentGame = "all";
 let currentCategory = "all";
 let searchQuery = "";
@@ -133,7 +131,7 @@ function render() {
     newsGrid.innerHTML = filtered.map(a => `
 
 
-        <div class="news-card">
+        <div class="news-card" onclick="window.open('${a.link}', '_blank')" style="cursor:pointer;">
 
           
 <div class="card-img" style="background-image: url('${a.img}');">
@@ -164,7 +162,7 @@ function render() {
 
 <span><i class="far fa-calendar-alt"></i> ${a.date}</span>
                     
-<span style="color:#F97316; cursor:pointer;" onclick="window.open('${a.link}', '_blank')">Read more →</span>
+<span style="color:#F97316;"> Read more →</span>
 
     </div>
 
